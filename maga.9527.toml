@@ -1,0 +1,19 @@
+# Netube server
+
+id = 9527
+
+bundle = "maga"
+
+type = "server"
+
+[left]
+host = "::0"
+port = 443
+
+[right]
+host = ""
+port = -1
+
+[ecnryption]
+secret = "Pa$$w0rd"
+cipher = "XCHACHA20_POLY1305"

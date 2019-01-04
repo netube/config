@@ -1,0 +1,24 @@
+# Netube router
+
+id = 39547
+
+bundle = "relay"
+
+type = "router"
+
+[left]
+host = "::1"
+port = 443
+
+[right]
+host = "2001:4860:4860::8888"
+port = 443
+
+[[handle]]
+bundles = ["maga", "genius"]
+services = [9528, 9529]
+rules = "/etc/netube/rules/rules.json"
+
+[[handle]]
+services = [9530]
+rules = "/etc/netube/rules/rules.9530.json"

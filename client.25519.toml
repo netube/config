@@ -1,0 +1,19 @@
+# Netube client
+
+id = 25519
+
+bundle = "maga"
+
+type = "client"
+
+[left]
+host = "::1"
+port = 8443
+
+[right]
+host = "2001:4860:4860:8844"
+port = 443
+
+[encryption]
+secret = "Pa$$w0rd"
+cipher = "XCHACHA20_POLY1305"
